@@ -8,6 +8,16 @@
         <br>
         <input type="submit" value="Transcribe"/>
     </form>
+
+    {% if text != "" %}
+    <div id="speechtranscript">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap" rel="stylesheet">
+        <h1>Transcript: </h1>
+        <p>{{text}}</p>
+    </div>
+    {% endif %}
     
 </div>
 {% endblock %}

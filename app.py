@@ -1,5 +1,7 @@
 from flask import Flask, redirect, render_template, url_for, request
 import speech_recognition as sr
+import googleapiclient
+from oauth2client import GOOGLE_AUTH_URI 
 
 app = Flask(__name__)
 
@@ -13,6 +15,7 @@ def change():
 
 @app.route('/transcriber', methods=['GET',"POST"])
 def transcribe():
+    text = ""
     if request.method == 'POST':
         print("DATA RECIEVED")
 
@@ -28,9 +31,10 @@ def transcribe():
             recognize_file = sr.Recognizer()
             audio_file = sr.AudioFile(file)
             with audio_file as source:
-                data = recognize_file.record(source)
+                file_data = recognize_file.record(source)
+            text = recognize_file.recognize_google(file_data,key=None)
 
-    return render_template('transcriber.html')
+    return render_template('transcriber.html', text = text)
 
 
 if __name__ == "__main__":
