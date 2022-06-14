@@ -17,8 +17,10 @@ $ pip3 install -r requirements.txt
  After all the packages are installed next is to get the web application running
   ```
   $ python3 app.py
+  
   # OR depending on what python version you have installed
   
   $ python app.py
   ```
+  Open your browser and go to the local host server [http://127.0.0.1:5000/] (http://127.0.0.1:5000/)
 
