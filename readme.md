@@ -9,5 +9,9 @@ $ git clone https://github.com/deepakj718/Speech_recognition.git
 Change to the directory where you saved the project and install all the required packages.
  ```
  $ pip install -r requirements.txt
+ 
+#OR
+
+$ pip3 install -r requirements.txt
  ```
 
