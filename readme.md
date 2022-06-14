@@ -3,5 +3,8 @@ Takes audio files and transcribes them into text using the Google Speech Recogni
 ## Getting Started
 First you want to clone the repo
 '''console
+
 git clone https://github.com/deepakj718/Speech_recognition
+
 '''
+
