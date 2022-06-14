@@ -10,8 +10,15 @@ Change to the directory where you saved the project and install all the required
  ```
  $ pip install -r requirements.txt
  
-#OR
+# OR
 
 $ pip3 install -r requirements.txt
  ```
+ After all the packages are installed next is to get the web application running
+  ```
+  $ python3 app.py
+  # OR depending on what python version you have installed
+  
+  $ python app.py
+  ```
 
