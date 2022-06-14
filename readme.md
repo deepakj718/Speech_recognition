@@ -22,5 +22,6 @@ $ pip3 install -r requirements.txt
   
   $ python app.py
   ```
-  Open your browser and go to the local host server [http://127.0.0.1:5000/] (http://127.0.0.1:5000/)
+  Open your browser and go to the local host server [http://127.0.0.1:5000/](http://127.0.0.1:5000/) and get started transcribing!
+  
 
