@@ -1,7 +1,6 @@
 from flask import Flask, redirect, render_template, url_for, request
 import speech_recognition as sr
-import googleapiclient
-from oauth2client import GOOGLE_AUTH_URI 
+
 
 app = Flask(__name__)
 
