@@ -18,7 +18,7 @@ $ pip3 install -r requirements.txt
   ```
   $ python3 app.py
   
-  # OR depending on what python version you have installed
+  # OR depending on the python version you have installed
   
   $ python app.py
   ```
